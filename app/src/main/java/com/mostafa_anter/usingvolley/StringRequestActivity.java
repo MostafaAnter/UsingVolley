@@ -1,7 +1,5 @@
 package com.mostafa_anter.usingvolley;
 
-import info.androidhive.volleyexamples.app.AppController;
-import info.androidhive.volleyexamples.utils.Const;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -15,6 +13,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.StringRequest;
+import com.mostafa_anter.usingvolley.app.AppController;
+import com.mostafa_anter.usingvolley.utils.Const;
 
 public class StringRequestActivity extends Activity {
 
