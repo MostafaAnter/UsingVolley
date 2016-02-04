@@ -9,22 +9,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <Button android:id="@+id/btnStringRequest"
+    <Button
+        android:id="@+id/btnJsonObj"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="@string/btn_string" />
+        android:text="@string/btn_json_obj_request" />
 
-    <Button android:id="@+id/btnJsonRequest"
+    <Button
+        android:id="@+id/btnJsonArray"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="@string/btn_json" />
+        android:text="@string/btn_json_array_request" />
 
-    <Button android:id="@+id/btnImageRequest"
+    <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="@string/btn_image" />
+        android:layout_marginTop="25dp"
+        android:text="Response: " />
+
+    <TextView
+        android:id="@+id/msgResponse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="" />
 
 </LinearLayout>
