@@ -1,4 +1,4 @@
-# Android working with Volley Library
+- # Android working with Volley Library
 Volley comes with lot of features. Some of them are
 - Request queuing and prioritization
 - Effective request cache and memory management
@@ -6,7 +6,7 @@ Volley comes with lot of features. Some of them are
 - Cancelling the requests
 
 
-# step by step
+- # step by step
 
 # Creating New Project
 1. In Android Studio, create a new project by navigating to File ⇒ New Project and fill all the required details. When it prompts to select a default activity, select Blank Activity and proceed.
