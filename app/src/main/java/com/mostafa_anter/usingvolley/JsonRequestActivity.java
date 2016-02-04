@@ -1,8 +1,5 @@
 package com.mostafa_anter.usingvolley;
 
-import info.androidhive.volleyexamples.app.AppController;
-import info.androidhive.volleyexamples.utils.Const;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,6 +22,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.mostafa_anter.usingvolley.app.AppController;
+import com.mostafa_anter.usingvolley.utils.Const;
 
 public class JsonRequestActivity extends Activity implements OnClickListener {
 
