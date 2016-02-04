@@ -21,7 +21,10 @@ The best way to maintain volley core objects and request queue is, making them g
 
 # I will put all function that use in different requestes in mainActivity class plz check it
 
+notic: you will change url :)
+
 Volley provides an easy to make json requests. If you are expecting json object in the response, you should use JsonObjectRequest class or if the response is json array, JsonArrayRequest class should be used.
 
 2.1 Making json object request
+
 Following code will make a json object request where the json response will start with object notation ‘{‘
