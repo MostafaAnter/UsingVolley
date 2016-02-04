@@ -16,6 +16,7 @@ Volley comes with lot of features. Some of them are
 compile ‘com.mcxiaoke.volley:library-aar:1.0.0’ under dependencies section.
 
 # Creating Volley Singleton Class
+
 The best way to maintain volley core objects and request queue is, making them global by creating a singleton class which extends Application object.
 
 4. Under utils package, create a class named LruBitmapCache.java and paste the below code. This class is required to handle image cache.
