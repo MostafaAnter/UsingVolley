@@ -18,3 +18,10 @@ The best way to maintain volley core objects and request queue is, making them g
 - Under utils package, create a class named LruBitmapCache.java and paste the below code. This class is required to handle image cache.
 - Under app package, create a class name AppController.java and extend the class from Application and add the following code.
 - Now open AndroidManifest.xml and add this singleton class in <application> tag using android:name property to execute the class automatically whenever app launches. Also add INTERNET permission as we are going to make network calls.
+
+# I will put all function that use in different requestes in mainActivity class plz check it
+
+Volley provides an easy to make json requests. If you are expecting json object in the response, you should use JsonObjectRequest class or if the response is json array, JsonArrayRequest class should be used.
+
+2.1 Making json object request
+Following code will make a json object request where the json response will start with object notation ‘{‘
